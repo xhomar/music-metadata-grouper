@@ -123,5 +123,4 @@ while True:
         if value == 5:
             break
 
-
-
+        tracklist.sort(key=lambda x: x[0])
